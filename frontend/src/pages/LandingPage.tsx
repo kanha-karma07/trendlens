@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
-  TrendingUp,
-  ShieldCheck,
   Zap,
   BarChart3,
   Scale,

@@ -4,8 +4,7 @@ import { StatCard } from '../components/ui/StatCard';
 import { ChartLabel } from '../components/ui/ChartLabel';
 import { FreshnessBadge } from '../components/ui/FreshnessBadge';
 import { RiskNotice } from '../components/ui/RiskNotice';
-import { Button } from '../components/ui/Button';
-import { Activity, Sliders, BarChart3 } from 'lucide-react';
+import { Activity } from 'lucide-react';
 
 export const TechnicalAnalysisPage: React.FC = () => {
   const [indicator, setIndicator] = useState<'rsi' | 'macd' | 'bb' | 'atr'>('rsi');

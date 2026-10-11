@@ -1,11 +1,6 @@
 import React, { useState } from 'react';
 import {
-  TrendingUp,
-  Clock,
   Sparkles,
-  Info,
-  Calendar,
-  Layers,
   ChevronDown,
 } from 'lucide-react';
 import { Button } from '../components/ui/Button';

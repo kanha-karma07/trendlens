@@ -6,7 +6,7 @@ import { Chip } from '../components/ui/Badge';
 import { RiskNotice } from '../components/ui/RiskNotice';
 import { FreshnessBadge } from '../components/ui/FreshnessBadge';
 import { ChartLabel } from '../components/ui/ChartLabel';
-import { Award, CheckCircle2, ShieldAlert } from 'lucide-react';
+import { Award } from 'lucide-react';
 
 export const ModelPerformancePage: React.FC = () => {
   const folds = [

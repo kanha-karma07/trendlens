@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardHeader, CardTitle, CardContent } from '../components/ui/Card';
+import { Card } from '../components/ui/Card';
 import { RiskNotice } from '../components/ui/RiskNotice';
 import { ShieldCheck, Scale, FileText } from 'lucide-react';
 

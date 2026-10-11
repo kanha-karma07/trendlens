@@ -4,7 +4,7 @@ import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '.
 import { Chip } from '../components/ui/Badge';
 import { RiskNotice } from '../components/ui/RiskNotice';
 import { FreshnessBadge } from '../components/ui/FreshnessBadge';
-import { History, ShieldAlert, CheckCircle2, Clock } from 'lucide-react';
+import { CheckCircle2, Clock } from 'lucide-react';
 
 export const PredictionHistoryPage: React.FC = () => {
   const [filter, setFilter] = useState<'all' | 'pending' | 'evaluated'>('all');

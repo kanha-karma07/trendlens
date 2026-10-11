@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../components/ui/Card';
-import { Button } from '../components/ui/Button';
 import { Input } from '../components/ui/Input';
 import { Toggle } from '../components/ui/Toggle';
 import { RiskNotice } from '../components/ui/RiskNotice';
 import { FreshnessBadge } from '../components/ui/FreshnessBadge';
-import { Save, Shield, Database, Bell } from 'lucide-react';
+import { Shield, Database, Bell } from 'lucide-react';
 
 export const SettingsPage: React.FC = () => {
   const [dataModeDemo, setDataModeDemo] = useState(true);

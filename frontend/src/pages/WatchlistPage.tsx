@@ -6,7 +6,7 @@ import { Input } from '../components/ui/Input';
 import { Chip } from '../components/ui/Badge';
 import { RiskNotice } from '../components/ui/RiskNotice';
 import { FreshnessBadge } from '../components/ui/FreshnessBadge';
-import { Star, Plus, ArrowUpRight, Trash2 } from 'lucide-react';
+import { Plus, ArrowUpRight, Trash2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const WatchlistPage: React.FC = () => {

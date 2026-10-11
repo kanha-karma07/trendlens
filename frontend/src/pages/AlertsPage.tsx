@@ -1,9 +1,8 @@
 import React from 'react';
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../components/ui/Card';
-import { Chip } from '../components/ui/Badge';
+import { Card } from '../components/ui/Card';
 import { RiskNotice } from '../components/ui/RiskNotice';
 import { FreshnessBadge } from '../components/ui/FreshnessBadge';
-import { Bell, CheckCircle2, AlertTriangle, Layers, Info } from 'lucide-react';
+import { CheckCircle2, AlertTriangle, Layers, Info } from 'lucide-react';
 
 export const AlertsPage: React.FC = () => {
   const alerts = [

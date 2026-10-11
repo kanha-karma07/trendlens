@@ -1,17 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {
-  TrendingUp,
-  Activity,
-  Layers,
-  ArrowUpRight,
-  Sparkles,
-  BarChart2,
-} from 'lucide-react';
+import { ArrowUpRight, Sparkles } from 'lucide-react';
 import { StatCard } from '../components/ui/StatCard';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '../components/ui/Card';
 import { Table, TableHeader, TableBody, TableRow, TableHead, TableCell } from '../components/ui/Table';
-import { Chip, Badge } from '../components/ui/Badge';
+import { Chip } from '../components/ui/Badge';
 import { RiskNotice } from '../components/ui/RiskNotice';
 import { Button } from '../components/ui/Button';
 import { FreshnessBadge } from '../components/ui/FreshnessBadge';

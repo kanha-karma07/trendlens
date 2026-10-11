@@ -3,7 +3,6 @@ import { Outlet, NavLink, Link, useLocation } from 'react-router-dom';
 import {
   TrendingUp,
   LayoutDashboard,
-  LineChart,
   Activity,
   History,
   Star,
